@@ -1,0 +1,129 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "IBM Plex Mono",
+      "role": "monospace"
+    }
+  ],
+  "colors": {
+    "primary": "#72524F",
+    "accent": "#72524F",
+    "background": "#F2EEE9",
+    "textPrimary": "#8F7270",
+    "link": "#8F7270"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "IBM Plex Mono",
+      "heading": "IBM Plex Mono"
+    },
+    "fontStacks": {
+      "heading": [
+        "IBM Plex Mono",
+        "monospace"
+      ],
+      "body": [
+        "IBM Plex Mono",
+        "monospace"
+      ],
+      "paragraph": [
+        "IBM Plex Mono",
+        "monospace"
+      ]
+    },
+    "fontSizes": {
+      "h1": "48px",
+      "h2": "24px",
+      "body": "14px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "0px"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "#72524F",
+      "textColor": "#F2EEE9",
+      "borderColor": "#C8BEBA",
+      "borderRadius": "4px",
+      "borderRadiusCorners": {
+        "topLeft": "4px",
+        "topRight": "4px",
+        "bottomRight": "4px",
+        "bottomLeft": "4px"
+      },
+      "shadow": "rgba(73, 46, 45, 0.08) 2px 2px 0px 0px"
+    },
+    "buttonSecondary": {
+      "background": "transparent",
+      "textColor": "#72524F",
+      "borderColor": "#C8BEBA",
+      "borderRadius": "4px",
+      "borderRadiusCorners": {
+        "topLeft": "4px",
+        "topRight": "4px",
+        "bottomRight": "4px",
+        "bottomLeft": "4px"
+      },
+      "shadow": "rgba(73, 46, 45, 0.08) 2px 2px 0px 0px"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.png",
+    "favicon": "File saved at: attached_assets/favicon.png",
+    "ogImage": "https://gitagent.sh/og-banner-2.png",
+    "logoHref": "File saved at: attached_assets/logoHref.html",
+    "logoAlt": "GitAgent"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'GitAgent'.",
+    "confidence": 0.9,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "Get Started",
+      "reasoning": "Button #0 ('Get Started') has a vibrant brand color (#72524F) and action-oriented text, making it the primary CTA."
+    },
+    "secondary": {
+      "index": 3,
+      "text": "Agent Registry",
+      "reasoning": "Button #3 ('Agent Registry') has a transparent background, making it a suitable secondary button with a different color group from the primary."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "developers and tech enthusiasts"
+  },
+  "designSystem": {
+    "framework": "tailwind",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'GitAgent'.",
+        "confidence": 0.9
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

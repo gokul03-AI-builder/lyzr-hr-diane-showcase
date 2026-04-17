@@ -1,0 +1,64 @@
+Recruitment Assistant (AI Talent Co-Pilot)
+An end-to-end hiring automation layer that augments recruiters across the funnel.
+
+Candidate Sourcing Agent – Proactively scans platforms like LinkedIn, Indeed, and other job boards to identify and shortlist relevant candidates based on structured job requirements.
+Candidate Matching Agent – Uses semantic ranking and AI-powered scoring to match candidates to open roles with explainability.
+Candidate Evaluation Agent – Conducts automated screening assessments and evaluates candidate suitability using predefined competency frameworks.
+Interview Scheduler Agent – Fully automates interview coordination, calendar sync, and follow-ups with zero manual dependency.
+Interview Analysis Agent – Analyzes interview conversations and generates structured, unbiased evaluation summaries.
+Compensation Negotiation Agent – Facilitates offer discussions within budget guardrails while balancing candidate expectations.
+
+
+2. HR Helpdesk (AI-First HR Operations)
+An intelligent service layer replacing traditional ticketing workflows.
+
+• Auto-classifies tickets (payroll, leave, benefits, policy, IT access, etc.)
+• Responds contextually using RAG-based policy retrieval
+• Escalates high-risk or compliance-sensitive cases
+• Two views:
+Employee View – Conversational HR assistant + ticket tracking
+Admin View – Risk insights, automation controls, SLA monitoring
+
+3. Learning & Development (AI Learning Co-Pilot)
+A dynamic, skills-first workforce development engine.
+
+Skill Gap Analysis Agent – Maps employee skill graph against role requirements and recommends targeted interventions.
+Personalized Learning Path Agent – Generates adaptive learning journeys based on role, performance, and career aspirations.
+Internal Mobility Agent – Identifies internal talent eligible for open roles and suggests upskilling pathways for transition readiness.
+Training ROI Agent – Quantifies learning impact on performance, retention, and promotion velocity.
+
+
+4. CHRO Intelligence Console (Strategic Workforce AI)
+An executive-level decision intelligence layer for workforce strategy.
+
+Attrition Risk Prediction Agent – Identifies flight risks using engagement, performance, and compensation signals, with recommended retention actions.
+Workforce Planning Agent – Simulates hiring and attrition scenarios to forecast headcount gaps and workforce needs.
+Compensation Benchmarking Agent – Benchmarks internal pay against market standards and flags pay equity gaps.
+Org Health Agent – Analyzes engagement signals and sentiment to detect burnout trends and team-level risks.
+
+5. Onboarding Intelligence
+
+Orchestrator - Routes employee queries to the right specialist agent based on intent and context.
+Day Zero Readiness - Handles pre-boarding paperwork, document collection, and first-day setup tasks
+Tool Concierge - Guides new hires through company policies, tool setup, and IT provisioning.
+Role Ramp - Tracks role-specific milestones, training modules, and skill ramp-up progress.
+Check-In Culture - Captures employee sentiment, pulse check-ins, and cultural integration signals
+Checkpoint Review - Generates structured 30/60/90-day performance evaluations with pre-filled context.
+Insights & Analytics - Provides team-level analytics, risk alerts, trends, and at-risk hire identification.
+Manager Enablement - Delivers AI-generated coaching prompts, risk signals, and 1:1 conversation starters for managers.
+
+6. Performance 360 
+
+Calibration Agent - Analyzes all ratings for a manager's team within a cycle. Detects statistical inflation. Returns suggested normalized scores with reasoning.
+Feedback Analysis Agent - Analyzes all feedback items for an employee within a review cycle. Returns structured JSON with top 3 themes, sentiment score (1-10), bias flags (vague praise, gender-coded language), and a 2-sentence synthesis.
+Goal Tracking Agent - Receives natural language questions about goal progress. Fetches relevant goal data and provides root cause analysis with specific, data-driven action recommendations under 200 words.
+Insights Agent - Answers natural language questions from HR (company/department scope) or Managers (team scope) using aggregated performance data -- ratings, goal completion, feedback sentiment, attrition signals. Returns JSON with answer, dataPoints, and recommendedActions.
+Review Generation Agent - Drafts professional prose performance reviews (manager mode) or self-assessments (employee mode) using employee goals, feedback, check-ins, and manager notes. Returns flowing prose under 250 words with accomplishments, impact, feedback themes, and one development area.
+
+7. Recruitment Automation Platform 
+
+Ranking Orchestrator (Manager) - Orchestrates the entire candidate evaluation pipeline by coordinating the parser, analyzer, and scorer sub-agents
+Resume Parser - Extracts structured candidate profiles from raw resume text (skills, experience, education)
+Context Analyzer - Analyzes job descriptions and candidate profiles to identify alignment, strengths, and gaps
+Candidate Scorer - Scores and ranks candidates against job criteria with detailed category breakdowns
+Interview Scheduler - Handles interview scheduling, email drafts, and candidate communication workflows

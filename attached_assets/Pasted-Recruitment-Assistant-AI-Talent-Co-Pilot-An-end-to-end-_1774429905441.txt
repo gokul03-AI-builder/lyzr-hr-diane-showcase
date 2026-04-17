@@ -1,0 +1,40 @@
+Recruitment Assistant (AI Talent Co-Pilot) 
+An end-to-end hiring automation layer that augments recruiters across the funnel.
+
+
+Candidate Sourcing Agent – Proactively scans platforms like LinkedIn, Indeed, and other job boards to identify and shortlist relevant candidates based on structured job requirements.
+Candidate Matching Agent – Uses semantic ranking and AI-powered scoring to match candidates to open roles with explainability.
+Candidate Evaluation Agent – Conducts automated screening assessments and evaluates candidate suitability using predefined competency frameworks.
+Interview Scheduler Agent – Fully automates interview coordination, calendar sync, and follow-ups with zero manual dependency.
+Interview Analysis Agent – Analyzes interview conversations and generates structured, unbiased evaluation summaries.
+Compensation Negotiation Agent – Facilitates offer discussions within budget guardrails while balancing candidate expectations.
+
+
+2. HR Helpdesk (AI-First HR Operations)
+An intelligent service layer replacing traditional ticketing workflows.
+
+• Auto-classifies tickets (payroll, leave, benefits, policy, IT access, etc.)
+• Responds contextually using RAG-based policy retrieval
+• Escalates high-risk or compliance-sensitive cases
+• Two views:
+Employee View – Conversational HR assistant + ticket tracking
+Admin View – Risk insights, automation controls, SLA monitoring
+
+3. Learning & Development (AI Learning Co-Pilot)
+A dynamic, skills-first workforce development engine.
+
+
+Skill Gap Analysis Agent – Maps employee skill graph against role requirements and recommends targeted interventions.
+Personalized Learning Path Agent – Generates adaptive learning journeys based on role, performance, and career aspirations.
+Internal Mobility Agent – Identifies internal talent eligible for open roles and suggests upskilling pathways for transition readiness.
+Training ROI Agent – Quantifies learning impact on performance, retention, and promotion velocity.
+
+
+4. CHRO Intelligence Console (Strategic Workforce AI)
+An executive-level decision intelligence layer for workforce strategy.
+
+
+Attrition Risk Prediction Agent – Identifies flight risks using engagement, performance, and compensation signals, with recommended retention actions.
+Workforce Planning Agent – Simulates hiring and attrition scenarios to forecast headcount gaps and workforce needs.
+Compensation Benchmarking Agent – Benchmarks internal pay against market standards and flags pay equity gaps.
+Org Health Agent – Analyzes engagement signals and sentiment to detect burnout trends and team-level risks.
